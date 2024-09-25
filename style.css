@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2{
+    background-color: rgb(7, 7, 51);
+    color: white;
+    height: 10vh;
+    font-size: 2.5rem;
+    line-height: 10vh;  /* vertically centre krne k lie */
+}
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.images, .score-board, .result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+.imgs{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    object-fit: cover;  /* image shrinK NA ho islie  */
+    border: 5px solid transparent;
+}
+.imgs:hover{
+    cursor: pointer;
+    border: 5px solid black;
+}
+#msg, .btn {
+    background-color: rgb(7, 7, 51);
+    color: white;
+    display: inline;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
